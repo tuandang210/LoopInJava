@@ -1,3 +1,4 @@
+import java.util.Scanner;
 public class PrimeCheck {
     public static void main(String[] args) {
 
@@ -5,7 +6,7 @@ public class PrimeCheck {
                 boolean check = true;
                 int number;
 
-                java.util.Scanner input = new java.util.Scanner(System.in);
+                Scanner input = new Scanner(System.in);
                 System.out.println("Enter a number: ");
                 number = input.nextInt();
 
